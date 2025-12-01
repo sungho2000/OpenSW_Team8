@@ -4,18 +4,18 @@ public class Input_Answer_Button : MonoBehaviour
 {
     public GameObject targetObject;
 
-    public void ActivateObject() // ¹öÆ°À» ´©¸£¸é ¿ÀºêÁ§Æ® È°¼ºÈ­ ÇÔ¼ö
+    public void ActivateObject() // ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ ì˜¤ë¸Œì íŠ¸ í™œì„±í™” í•¨ìˆ˜
     {
-        targetObject.SetActive(true); // ¿ÀºêÁ§Æ® È°¼ºÈ­
+        targetObject.SetActive(true); // ì˜¤ë¸Œì íŠ¸ í™œì„±í™”
     }
 
-    public void DeactivateObject() // ¹öÆ°À» ´©¸£¸é ¿ÀºêÁ§Æ® ºñÈ°¼ºÈ­ ÇÔ¼ö
+    public void DeactivateObject() // ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ ì˜¤ë¸Œì íŠ¸ ë¹„í™œì„±í™” í•¨ìˆ˜
     {
-        targetObject.SetActive(false); // ¿ÀºêÁ§Æ® ºñÈ°¼ºÈ­
+        targetObject.SetActive(false); // ì˜¤ë¸Œì íŠ¸ ë¹„í™œì„±í™”
     }
 
     public void Toggle()
     {
-        targetObject.SetActive(!targetObject.activeSelf); // ¿ÀºêÁ§Æ®°¡ È°¼ºÈ­ µÅÀÖÀ¸¸é ºñÈ°¼ºÈ­ ¶Ç´Â ¿ÀºêÁ§Æ®°¡ ºñÈ°¼ºÈ­ µÅÀÖÀ¸¸é È°¼ºÈ­
+        targetObject.SetActive(!targetObject.activeSelf); // ì˜¤ë¸Œì íŠ¸ê°€ í™œì„±í™” ë¼ìˆìœ¼ë©´ ë¹„í™œì„±í™” ë˜ëŠ” ì˜¤ë¸Œì íŠ¸ê°€ ë¹„í™œì„±í™” ë¼ìˆìœ¼ë©´ í™œì„±í™”
     }
 }

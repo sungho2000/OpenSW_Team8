@@ -19,6 +19,6 @@ public class LoadGame : MonoBehaviour
 
     public void OnClickLoadGame()
     {
-        SceneManager.LoadScene("GameScene"); //°ÔÀÓ È­¸é ·Îµå - ¾À ÀÌ¸§ÀÌ GameSceneÀÎÁö È®ÀÎ
+        SceneManager.LoadScene("GameScene"); //ê²Œì„ í™”ë©´ ë¡œë“œ - ì”¬ ì´ë¦„ì´ GameSceneì¸ì§€ í™•ì¸
     }
 }

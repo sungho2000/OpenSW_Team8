@@ -19,6 +19,6 @@ public class LoadLobby : MonoBehaviour
 
     public void OnClickLoadLobby()
     {
-        SceneManager.LoadScene("LobbyScene"); //·Îºñ ·Îµå - ¾À ÀÌ¸§ÀÌ LobbySceneÀÎÁö È®ÀÎ
+        SceneManager.LoadScene("LobbyScene"); //ë¡œë¹„ ë¡œë“œ - ì”¬ ì´ë¦„ì´ LobbySceneì¸ì§€ í™•ì¸
     }
 }

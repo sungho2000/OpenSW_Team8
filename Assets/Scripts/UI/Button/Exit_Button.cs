@@ -16,7 +16,7 @@ public class QuitButtom : MonoBehaviour
 
     }
 
-    public void OnClickExit() //Å¬¸¯½Ã °ÔÀÓ Á¾·á
+    public void OnClickExit() //í´ë¦­ì‹œ ê²Œì„ ì¢…ë£Œ
     {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;

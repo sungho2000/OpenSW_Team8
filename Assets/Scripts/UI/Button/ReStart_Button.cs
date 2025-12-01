@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; //¾À °ü¸® °ü·Ã ¶óÀÌºê·¯¸®
+using UnityEngine.SceneManagement; //ì”¬ ê´€ë¦¬ ê´€ë ¨ ë¼ì´ë¸ŒëŸ¬ë¦¬
 
 public class ReStartButtom : MonoBehaviour
 {
@@ -17,8 +17,8 @@ public class ReStartButtom : MonoBehaviour
 
     }
 
-    public void OnClickReStart() //Å¬¸¯½Ã °ÔÀÓ¾À ·Îµå
+    public void OnClickReStart() //í´ë¦­ì‹œ ê²Œì„ì”¬ ë¡œë“œ
     {
-        SceneManager.LoadScene("GameScene"); //GameSceneÀ» ·Îµå - ¾À ÀÌ¸§ÀÌ GameSceneÀÎÁö È®ÀÎ
+        SceneManager.LoadScene("GameScene"); //GameSceneì„ ë¡œë“œ - ì”¬ ì´ë¦„ì´ GameSceneì¸ì§€ í™•ì¸
     }
 }
